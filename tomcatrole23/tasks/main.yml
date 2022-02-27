@@ -1,2 +1,2 @@
 ---
-# tasks file for tomcatrole23
+- include_tasks: installjava.yml
