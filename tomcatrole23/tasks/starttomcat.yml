@@ -1,0 +1,7 @@
+---
+ - name: start tomcatuser
+   systemd:
+       name: tomcat 
+       state: started
+       demon_reload: yes
+       enable: yes

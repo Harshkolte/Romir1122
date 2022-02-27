@@ -1,7 +1,7 @@
 --- 
  - name: copy host context file
    template:
-      src: templates/myhostscontext.j2
+      src: templates/myservice.j2
       dest: /etc/systemd/system/tomcat.service
 
 
